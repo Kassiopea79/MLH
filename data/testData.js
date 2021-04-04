@@ -1,15 +1,39 @@
 const name = {
-    "default": "LadyBug007"
+    "default": "QueenBee!1",
+    "symbol1": "i",
+    "symbol70": "wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww",
+    "symbol71": "abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz1234567890123456789",
+    "symbolSpecial": ",.;`~!@#$%'/=^&*()_+{}:?><[]",
+    "symbolSpace": "ABC abc",
+    "space": "   ",
+    "letters": "Abc",
+    "lettersRus": "абвгде",
+    "upperCase": "ABC",
+    "lowerCase": "abc",
+    "digits": "1234567890",
 }
 
 const gender = {
     "he": 0,
     "she": 1,
-    "it": 2
+    "it": 2,
 }
 
 const age = {
-    "default": "1234567890"
+    "default": "1234567890",
+    "digit1": "1",
+    "digit2": "2",
+    "digits12": "999999999999",
+    "digits13": "9999999999999",
+    "digitsAny": "1234567890",
+    "digitsWithSpaces": "123 78 9",
+    "digitsWith0": "00001",
+    "letters": "abcdef",
+    "zero": "0",
+    "symbols": ".,/!@#{}[]",
+    "digitsNegative": "-1",
+    "floatNumbers": "1.5",
+    "lettersRus": "абвгдежзик",
 }
 
 const story = {
@@ -22,4 +46,8 @@ const story = {
     "comedy": 6
 }
 
-module.exports = {name, gender, age, story};
+const imagePath = {
+    "mb": `'__dirname,' '../../data/image/2mb-2.jpg'`,
+}
+
+module.exports = {name, gender, age, story, imagePath}

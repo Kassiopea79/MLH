@@ -1,18 +1,32 @@
 const elements = {
     "header": "h3",
     "instruction": "p",
-    "requiredLabel": ".ant-form-item-required",
+    "nameLabel": "label[for=name]",
     "name": "#name",
-     "radioButtons": ".ant-radio",
-    "radioButtonsLabel": ".ant-radio-wrapper",
+    "genderLabel": "label[for=gender]",
+    "radioButtons": ".ant-radio",
+    "radioButtonsL": ".ant-radio-wrapper",
+    "ageLabel": "label[for=age]",
     "age": "#age",
-    "storyType": ".ant-select-selector",
+    "ageSpin": ".ant-input-number-handler-wrap",
+    "ageSpinUp": ".ant-input-number-handler-up",
+    "ageSpinDown": ".ant-input-number-handler-down",
+    "storyLabel": "label[for=story]",
+    "story": "#story",
     "storyList": ".ant-select-item",
+    "storyType": ".ant-select-selector",
+    "storySelected": ".ant-select-selection-item",
+    "storyPH": ".ant-select-selection-placeholder",
     "imageLabel": ".ant-form-item-label",
     "image": "span.ant-upload",
+    "imageUpload": ".ant-upload input",
+    "imageThumbnail": ".ant-upload-list-item-thumbnail",
     "submit": ".ant-btn",
-    "tryAgain": ".btn-primary"
-
+    "tryAgainBtn": ".btn-primary",
+    "error": "div[role=alert]",
+    "errorAge": ".ant-form-item-explain",
+    "outside": "#root",
+    "binIcon": ".ant-upload-list-item-actions"
 }
 
 module.exports = elements;
